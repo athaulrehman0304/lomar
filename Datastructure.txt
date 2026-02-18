@@ -1,0 +1,26 @@
+LoMar A Local Defense Against Poisoning Attack on Federated Learning
+
+Distributed Artificial Intelligence, Security and Protection, Defense, Distribution Functions, Distributed Architectures
+
+
+IEEE Transactions on Dependable and Secure Computing,Volume:20,Issue:1,Issue Date:01.Jan.-Feb.2023
+
+
+LoMar
+
+
+lomar
+
+
+predict_poisoning_attack 
+
+
+
+title	
+pubDate	
+guid	
+link	
+description
+Prediction
+
+
