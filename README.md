@@ -1,4 +1,5 @@
-# LoMar: Malicious Content Detection System
+# LoMar – Web-based Malicious Content Detection System
+
 
 ## Overview
 LoMar is a Django-based web application designed to detect and classify malicious content (poisoning attacks) in text data. It leverages machine learning algorithms to analyze user inputs and determine if they exhibit characteristics of known attack patterns.
