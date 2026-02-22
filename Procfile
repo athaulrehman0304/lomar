@@ -1,1 +1,1 @@
-web: gunicorn lomar.wsgi
+web: gunicorn lomar.wsgi --bind 0.0.0.0:$PORT
