@@ -1,56 +1,68 @@
 # LoMar – Web-based Malicious Content Detection System
 
+LoMar is a **Django-based Machine Learning web application** used to detect and analyze **poisoning attacks in datasets**.  
+The system allows users to train ML models, predict attack status, and visualize results through a web dashboard.
 
-## Overview
-LoMar is a Django-based web application designed to detect and classify malicious content (poisoning attacks) in text data. It leverages machine learning algorithms to analyze user inputs and determine if they exhibit characteristics of known attack patterns.
+---
 
-## Features
-*   **User Role Management**: Separate portals for Remote Users (Clients) and Service Providers (Admins).
-*   **Machine Learning Integration**: Utilizes Scikit-learn to train and deploy models.
-*   **Ensemble Learning**: Implements a Voting Classifier combining:
-    *   Naive Bayes
-    *   Support Vector Machine (SVM)
-    *   Logistic Regression
-    *   Decision Tree/Extra Tree
-*   **Data Visualization**: Displays detection accuracy and ratios.
+## Live Deployment
+
+🔗 **Deployed Application:**  
+https://lomar-production.up.railway.app
+
+🔗 **GitHub Repository:**  
+https://github.com/athaulrehman0304/lomar
+
+---
+
+## Project Overview
+
+Poisoning attacks occur when malicious or incorrect data is injected into training datasets, leading to inaccurate model predictions.
+
+LoMar helps in:
+- Detecting poisoning attack patterns
+- Predicting attack status using Machine Learning
+- Visualizing results using charts
+- Managing users with role-based access
+
+---
+
+## Key Features
+
+- User authentication and role-based access
+- Machine learning model training
+- Poisoning attack status prediction
+- Data visualization using charts and graphs
+- Downloadable prediction results
+- Web-based interface built with Django
+
+---
 
 ## Tech Stack
-*   **Backend**: Python, Django
-*   **Frontend**: HTML, CSS
-*   **Machine Learning**: Scikit-Learn, Pandas, NumPy
-*   **Database**: SQLite
 
-## Installation
+- **Backend:** Python, Django
+- **Machine Learning:** NumPy, Matplotlib
+- **Frontend:** HTML, CSS, Bootstrap
+- **Database:** SQLite
+- **Server:** Gunicorn
+- **Deployment:** Railway
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/lomar.git
-    cd lomar
-    ```
+---
 
-2.  **Create a Virtual Environment** (Optional but recommended):
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
 
-3.  **Install Dependencies**:
-    ```bash
-    pip install django pandas scikit-learn numpy xlwt
-    ```
+## How to Run Locally
 
-4.  **Run Migrations**:
-    ```bash
-    python manage.py migrate
-    ```
-
-5.  **Run the Server**:
-    ```bash
-    python manage.py runserver
-    ```
-
+```bash
+git clone https://github.com/athaulrehman0304/lomar.git
+cd lomar
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 6.  **Access the App**:
     Open your browser and go to `http://127.0.0.1:8000/`
+```
 
 ## Usage
 1.  **Register a User**: Create a new account to test the detection features.
